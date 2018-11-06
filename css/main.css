@@ -16,21 +16,33 @@ img {
   width: 40px;
 }
 
+h1 {
+  margin: 0;
+}
+
 .header {
   display: flex;
   background-color: #d05c2e;
-  border-color: #a63f38;
   color: #fff;
+  font-size: 2rem;
 }
 
 ul {
-  display: flex;
   list-style-type: none;
-  text-decoration: none;
   background-color: #d05c2e;
+  margin: 0;
+  display: flex;
 }
 
-ul li {
+a {
   border-color: #a63f38;
   color: #fff;
+  text-decoration: none;
+  padding: .5em 0;
+  font-size: 1.125rem;
+  border: 1px solid #a63f38;
+}
+
+a:hover {
+  background-color: #a63f38;
 }
