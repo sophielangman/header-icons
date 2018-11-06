@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  font-family: Merriweather, serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 40px;
+}
+
+.header {
+  display: flex;
+  background-color: #d05c2e;
+  border-color: #a63f38;
+  color: #fff;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  background-color: #d05c2e;
+}
+
+ul li {
+  border-color: #a63f38;
+  color: #fff;
+}
