@@ -4,7 +4,7 @@ html {
   line-height: 1.5;
 }
 
-body {
+header {
   margin: 0;
 }
 
@@ -33,6 +33,7 @@ ul {
   list-style-type: none;
   background-color: #d05c2e;
   margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
 }
