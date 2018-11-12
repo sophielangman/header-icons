@@ -26,7 +26,7 @@ h1 {
   align-items: center;
   background-color: #d05c2e;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 ul {
@@ -42,6 +42,7 @@ a {
   text-decoration: none;
   color: #fff;
   font-size: 1.125rem;
+  font-style: bold;
 }
 
 li {
@@ -56,6 +57,6 @@ ul li {
   width: 33.3333%;
 }
 
-a:hover {
+ul li:hover {
   background-color: #a63f38;
 }
