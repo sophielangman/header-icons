@@ -22,6 +22,7 @@ h1 {
 
 .header {
   display: flex;
+  justify-content: center;
   background-color: #d05c2e;
   color: #fff;
   font-size: 2rem;
@@ -32,15 +33,24 @@ ul {
   background-color: #d05c2e;
   margin: 0;
   display: flex;
+  justify-content: center;
 }
 
 a {
-  border-color: #a63f38;
-  color: #fff;
   text-decoration: none;
+  color: #fff;
+}
+
+li {
+  border-color: #a63f38;
   padding: .5em 0;
   font-size: 1.125rem;
   border: 1px solid #a63f38;
+  text-align: center;
+}
+
+ul li {
+  width: 33.3333%
 }
 
 a:hover {
